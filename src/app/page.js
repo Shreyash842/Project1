@@ -1,10 +1,9 @@
 'use client';
 import { useState } from "react";
-import Navbar from "./components/Navbar";
+
 import { ToastContainer, Slide } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import "./globals.css";
-import EmpList from "./components/EmpList";
 import Login from "./components/login";
 
 export default function Home() {
@@ -29,7 +28,7 @@ export default function Home() {
       ) : (
         <>
           <Navbar />
-          <EmpList />
+          
         </>
       )}
     </div>
